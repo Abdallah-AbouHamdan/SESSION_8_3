@@ -259,7 +259,27 @@ header .second {
 }
 
 
-
+.video {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+}
+.video div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 500px;
+  padding: 50px;
+}
+.video div h1 {
+  font-size: 45px;
+}
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
