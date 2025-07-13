@@ -102,6 +102,43 @@ header .second {
   color: var(--white);
 }
 
+
+.our-services {
+  height: 90vh;
+  background-color: var(--greybg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 100px;
+}
+.our-services .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.our-services .second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+.our-services .second div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 250px;
+}
+.our-services .first h1 {
+  font-size: 55px;
+}
+
+
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
