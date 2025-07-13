@@ -12,6 +12,65 @@
 }
 
 
+header {
+  height: 10vh;
+  width: 100vw;
+  padding: 0px 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#checked {
+  display: none;
+}
+.list {
+  position: absolute;
+  right: 100px;
+  width: 60px;
+  cursor: pointer;
+  display: none;
+  color: var(--grey);
+}
+header .first h1 {
+  font-size: 24px;
+  color: var(--grey);
+}
+header .second nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--grey);
+}
+header .second nav {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+header .second .icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+header .second {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
