@@ -535,6 +535,87 @@ header .second {
   background-color: var(--black);
   color: var(--white);
 }
+
+
+footer {
+  height: 70vh;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+footer img {
+  width: 70px;
+}
+footer .jeera {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .jeera h1 {
+  font-size: 55px;
+}
+footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .newsletter input {
+  height: 40px;
+  width: 230px;
+  background-color: black;
+  border: 3px solid var(--bottomborder);
+}
+footer .newsletter button {
+  height: 46px;
+  width: 190px;
+  background-color: var(--white);
+}
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .gallery .imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px;
+}
+footer .gallery .imgs img {
+  width: 90%;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
