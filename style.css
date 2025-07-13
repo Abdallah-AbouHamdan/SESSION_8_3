@@ -384,6 +384,41 @@ header .second {
 .portfolio .third div img {
   width: 100%;
 }
+
+
+.subscribe {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+}
+.subscribe div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 500px;
+  padding: 50px;
+}
+.subscribe div h1 {
+  font-size: 55px;
+}
+.subscribe div input {
+  padding: 20px;
+  height: 50px;
+  width: 450px;
+}
+.subscribe div button {
+  height: 40px;
+  width: 166px;
+  background-color: var(--black);
+  color: var(--white);
+  border: var(--white) solid 2px;
+}
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
