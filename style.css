@@ -419,6 +419,122 @@ header .second {
   color: var(--white);
   border: var(--white) solid 2px;
 }
+
+
+.faq {
+  height: fit-content;
+  display: flex;
+  background-color: var(--greybg);
+}
+.faq .first {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.faq .first h1 {
+  font-size: 55px;
+}
+.faq .second {
+  width: 50%;
+}
+.faq .second img {
+  width: 100%;
+  height: 100%;
+}
+.faq .first .d {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq .first .d1 {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  border-bottom: 1px solid var(--bottomborder);
+}
+.faq .first .d1 {
+  width: 400px;
+}
+
+.contact {
+  height: 120vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contact .first h1 {
+  font-size: 55px;
+}
+.contact .second .inneur1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.contact .second .inneur1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contact .second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contact .inneur2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact .second .inneur2 .flex-row .flex input {
+  height: 52px;
+  padding: 20px;
+  width: 290px;
+}
+.contact input {
+  height: 52px;
+  padding: 20px;
+  width: 590px;
+}
+.contact .text-area input {
+  height: 100px;
+}
+.contact .inneur2 div button {
+  height: 52px;
+  width: 166px;
+  background-color: var(--black);
+  color: var(--white);
+}
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
