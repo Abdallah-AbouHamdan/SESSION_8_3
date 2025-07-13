@@ -139,6 +139,41 @@ header .second {
 }
 
 
+.our-features {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-features .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 50%;
+  padding: 50px;
+}
+.our-features .second {
+  width: 50%;
+}
+.our-features .first div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.our-features .first div h1 {
+  font-size: 35px;
+}
+.our-features .first div h2 {
+  font-size: 25px;
+}
+.our-features .second {
+  width: fit-content;
+}
+
+
 @media (max-width: 1353px) {
   .landing-page {
     height: fit-content;
